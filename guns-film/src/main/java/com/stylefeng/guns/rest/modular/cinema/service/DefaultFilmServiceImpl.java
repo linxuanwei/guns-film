@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.film.service;
+package com.stylefeng.guns.rest.modular.cinema.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
@@ -127,8 +127,7 @@ public class DefaultFilmServiceImpl implements IFilmServiceApi {
 
         // 有条数限制
         if (isLimit) {
-            Page<MoocFilmT> page = null;
-            List<MoocFilmT> moocFilmTS = moocFilmTMapper.selectPage(page, condition);
+            List<MoocFilmT> moocFilmTS = moocFilmTMapper.selectPage(null, condition);
             filmInfoList = this.convertFilmInfo(moocFilmTS);
             filmVo.setFilmInfo(filmInfoList);
             filmVo.setFilmNum(filmInfoList.size());
