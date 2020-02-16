@@ -1,0 +1,182 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-GunsApplication<guns-admin>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.GunsApplication",
+      "projectName": "guns-admin"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ShiroExt<guns-admin>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.core.beetl.ShiroExt",
+      "projectName": "guns-admin"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Base64Test<guns-admin>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.shiro.Base64Test",
+      "projectName": "guns-admin"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ImgQrTool<guns-core>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.core.qr.ImgQrTool",
+      "projectName": "guns-core"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-MD5Util<guns-core>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.core.util.MD5Util",
+      "projectName": "guns-core"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-PingYinUtil<guns-core>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.core.util.PingYinUtil",
+      "projectName": "guns-core"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SqlUtil<guns-core>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.core.util.SqlUtil",
+      "projectName": "guns-core"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JsonTest<guns-film>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.fastjson.JsonTest",
+      "projectName": "guns-film"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DecryptTest<guns-film>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.DecryptTest",
+      "projectName": "guns-film"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JWTTest<guns-film>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.JWTTest",
+      "projectName": "guns-film"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-FilmApplication<guns-film>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.rest.FilmApplication",
+      "projectName": "guns-film"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JsonTest<guns-gateway>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.fastjson.JsonTest",
+      "projectName": "guns-gateway"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DecryptTest<guns-gateway>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.DecryptTest",
+      "projectName": "guns-gateway"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JWTTest<guns-gateway>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.JWTTest",
+      "projectName": "guns-gateway"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-GatewayApplication<guns-gateway>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.rest.GatewayApplication",
+      "projectName": "guns-gateway"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-GunsCodeGenerator<guns-generator>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.generator.action.GunsCodeGenerator",
+      "projectName": "guns-generator"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JsonTest<guns-rest>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.fastjson.JsonTest",
+      "projectName": "guns-rest"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DecryptTest<guns-rest>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.DecryptTest",
+      "projectName": "guns-rest"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JWTTest<guns-rest>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.JWTTest",
+      "projectName": "guns-rest"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-GunsRestApplication<guns-rest>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.rest.GunsRestApplication",
+      "projectName": "guns-rest"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JsonTest<guns-user>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.fastjson.JsonTest",
+      "projectName": "guns-user"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-DecryptTest<guns-user>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.DecryptTest",
+      "projectName": "guns-user"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-JWTTest<guns-user>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.jwt.JWTTest",
+      "projectName": "guns-user"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-UserApplication<guns-user>",
+      "request": "launch",
+      "mainClass": "com.stylefeng.guns.rest.UserApplication",
+      "projectName": "guns-user"
+    }
+  ]
+}
